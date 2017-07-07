@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.pranay.practice_adapter_with_database.Main2Activity"
+    android:weightSum="1">
+
+
+    <EditText
+        android:id="@+id/titletext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.13"
+        android:ems="10"
+        android:inputType="textPersonName"
+
+        android:text="Title" />
+
+    <EditText
+        android:id="@+id/pricetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.13"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Price" />
+
+    <EditText
+        android:id="@+id/categorytext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.13"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Category" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.13"
+        android:text="Submit" />
+
+</LinearLayout>
